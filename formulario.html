@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+    <form name="formulario" action=" procesar.php" method="get">
+        <p>
+            <label for="nom"> Nombre y apellido </label>
+          
+        </p>
+
+        <p> 
+            <input type="text" name="Nombre" placeholder="Nombre" />
+            <input type="text" name="apellido" placeholder="Apellido" />
+        </p>
+
+        <p> 
+            <label for="sexo"> Sexo </label>
+                <UL> 
+                    <li>
+                        <input type="radio" name="sexo" value="hombre"> 
+                        <label> Hombre </label>
+                    </li>
+                    <li>
+                        <input type="radio" name="sexo" value="mujer">
+                        <label> Mujer </label>
+                    </li>
+                </UL>
+                
+
+        </p>
+        
+        <p><label>Teléfono: <input type="tel" name="telefono" placeholder="Ej 1143568834"></label> </p>
+        <p><label>Correo Electronico: <input type="email" name="correo" placeholder="Ej mm@gnail.com"></label></p>
+       
+        <p>
+            <p><label>Mensaje: <textarea name="Mensaje" placeholder="Deje su Mensaje" cols="50"rows="6"></textarea></label></p>
+
+        </p>
+            
+        <p>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+        </p>
+
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+</form>
