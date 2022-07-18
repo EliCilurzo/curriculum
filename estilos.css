@@ -1,135 +1,136 @@
-html{
+html {
     font-family: 'Edu VIC WA NT Beginner', cursive;
     font-family: 'Roboto Slab', serif;
 
 }
 
 
-p{
-text-align:justify;
-font-style:inherit
+p {
+    text-align: justify;
+    font-style: inherit
 }
-    
-header{
-    color:white;
-    text-decoration:underline;
-    background-color:#050588;
-    text-align:center;
-    border-radius:10px;
-    margin: none;
-    padding: 0,8rem;
-    font-size:2rem;
 
-    }
+header {
+    color: white;
+    text-decoration: underline;
+    background-color: #050588;
+    text-align: center;
+    border-radius: 10px;
+    margin: none;
+    padding: 0, 8rem;
+    font-size: 2rem;
+
+}
 
 body {
-    background-color:darkgray;
+    background-color: darkgray;
 }
 
-.fotopersonal { 
-    
-    margin:0;
-    width:40%;
-    border-radius:30%;
+.fotopersonal {
+
+    margin: 0;
+    width: 40%;
+    border-radius: 30%;
     margin-left: 20px;
-    
+
 }
 
 
-.datos{
-    
+.datos {
+
     width: 300px;
-    height:280px;
-    background-color:cornsilk;
-    border-radius:10%;
-    position:relative;
-    right:300px ;
-   
- 
+    height: 280px;
+    background-color: cornsilk;
+    border-radius: 10%;
+    position: relative;
+    right: 300px;
+
+
 }
 
-.datos h2{
-    color:#050588;
-    text-align:center;
+.datos h2 {
+    color: #050588;
+    text-align: center;
     font-family: 'Roboto Slab', serif;
 
 }
 
 .datos ul {
     font-family: 'Edu VIC WA NT Beginner', cursive;
-    font-size:larger;
+    font-size: larger;
 }
-#caja1{
-   
-    display:flex;
+
+#caja1 {
+
+    display: flex;
     justify-content: center;
     align-items: center;
-    width:1340px;
+    width: 1340px;
     height: 500px;
     position: relative;
-    
+
 
 }
 
 .gustos {
     position: relative;
-    width:300px;
+    width: 300px;
     height: 280px;
     background-color: cornsilk;
     border-radius: 10%;
-    left:-200px;
-    
-   
-   
+    left: -200px;
+
+
+
 }
 
-.gustos h3{
-    color:#050588;
+.gustos h3 {
+    color: #050588;
     text-align: center;
     font-family: 'Roboto Slab', serif
 }
 
-.gustos ul{
+.gustos ul {
     font-family: 'Edu VIC WA NT Beginner', cursive;
-    font-size:larger;
+    font-size: larger;
 }
 
 
-.perfil{
-    width:1300px;
+.perfil {
+    width: 1300px;
     height: 300px;
-    background-color: cornsilk;
+    /*background-color: cornsilk;*/
     border-radius: 10%;
     margin-left: 0.9%;
-   
+    background: #fff4ad;
+    background: linear-gradient(155deg, #fff4ad 0%, #ffff87 80%);
+    background: -webkit-linear-gradient(155deg, #fff4ad 0%, #ffff87 80%);
+    background: -moz-linear-gradient(155deg, #fff4ad 0%, #ffff87 80%);
+
 }
 
-.perfil h3{
-    color:#050588;
+.perfil h3 {
+    color: #050588;
     text-align: center;
     font-family: 'Roboto Slab', serif
 }
 
- h5{
+h5 {
     font: weight 50px;
 }
 
-a:link{
-    color:aqua;
+a:link {
+    color: aqua;
 }
 
-a:visited{
-    color:red;
+a:visited {
+    color: red;
 }
 
-a:hover{
-    color:fuchsia;
+a:hover {
+    color: fuchsia;
 }
 
-a:active{
-    color:black;
+a:active {
+    color: black;
 }
-
-
-
-
